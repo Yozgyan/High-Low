@@ -1,0 +1,106 @@
+body{
+    background-size:100%;
+    background-repeat: space;
+    margin: 0;
+    padding: 0;
+    
+}
+.high-button{
+    position: absolute;
+    top: 39.6vw;
+    left:38%;
+    height: 3vw;
+    width: 6vw;
+    border :0.2vw solid red;
+    border-radius: 0.7vw;
+    font-size: 2vw;
+    font-family: fantasy;
+    outline: none;
+    
+}
+.low-button{
+    position: absolute;
+    top: 39.6vw;
+    right: 38vw;
+    height: 3vw;
+    width: 6vw;
+    border :0.2vw solid red;
+    border-radius: 0.7vw;
+    font-size: 2vw;
+    font-family: fantasy;
+    outline: none;
+    
+}
+.start-button{
+    border :0.2vw solid blue;
+    border-radius: 1vw;
+    padding:0vw 1vw;
+    position: absolute;
+    top:10vw;
+    left: 36vw;
+    height: 3vw;
+    width: 10vw;
+    font-size: 2vw;
+    font-family: fantasy;
+    outline: none;
+}
+.restart-button{
+    border :0.2vw solid grey;
+    border-radius: 1vw;
+    padding:0vw 1vw;
+    position: absolute;
+    top:10vw;
+    right: 36vw;
+    height: 3vw;
+    width: 10vw;
+    font-size: 2vw;
+    font-family: fantasy;
+    
+    outline: none;
+}
+.para{
+    position: absolute;
+    top:17%;
+    left:47%;
+}
+ .container .msgcontainer{
+    position: absolute;
+    width: 20vw;
+    height: 3vw;
+    left:41vw;
+    top:3vw;
+    text-align:center;
+    color:white;
+    font-family: fantasy
+} 
+.container .nummsg{
+    position: absolute;
+    top:39vw;
+    left:7.5vw;
+}
+.container .cardImages1 .images1{
+
+    position: absolute;
+    height: 22vw;
+    width:14vw;
+    top:15vw;
+    right:52vw;
+
+    
+    
+}
+.container .cardImages2 .images2{
+    position: absolute;
+    height: 22vw;
+    width:14vw;
+    top:15vw;
+    left:52vw;
+}
+
+.container {
+    
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+}

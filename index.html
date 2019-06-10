@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    </link>
+</head>
+
+<body background="/PNG/back.jpg">
+    <div class="container">
+        <div class="cardImages1">
+            <img src="/PNG/backback.png" id="left-image" class="images1" name="canvas">
+        </div>
+        <div class="cardImages2">
+            <img src="/PNG/backback.png" id="right-image" class="images2" name="canvas1">
+        </div>
+        <div class="msgcontainer">
+        <h1 id="result" class="msg"></h1>
+        <h1 id="num" class="nummsg"></h1>
+        </div>
+        <div class="para">
+            <p id="next"></p>
+        </div>
+        <p id="currentCard"></p>
+        <p id="nextCard"></p>
+        <ol id='answer'>
+            </ul>
+            <p class="dasda"></p>
+            <button onclick="checkUserChoice('high')" class="high-button" id="high">High</button>
+            <button onclick="checkUserChoice('low')" class="low-button" id="low">Low</button>
+            <button onclick="startGameFunc()" class="start-button" id="startGame">Start</button>
+            <button onclick="restartGame()" class="restart-button" id="restartGame">Restart</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
