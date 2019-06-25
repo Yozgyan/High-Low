@@ -354,7 +354,6 @@ function disableButtons() {
 
 function startGameFunc() {
     currentCard = shuffle(originalCards.length);
-    console.log('Current', currentCard)
     document.getElementById('right-image').src = `PNG/${currentCard.src}.png`;
 
 }

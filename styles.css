@@ -67,6 +67,7 @@ body{
     position: absolute;
     width: 20vw;
     height: 3vw;
+    font-size:1vw;
     left:41vw;
     top:3vw;
     text-align:center;
@@ -77,6 +78,7 @@ body{
     position: absolute;
     top:39vw;
     left:7.5vw;
+    color:white;
 }
 .container .cardImages1 .images1{
 
